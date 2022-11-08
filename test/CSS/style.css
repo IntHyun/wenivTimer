@@ -1,0 +1,134 @@
+body {
+    background: radial-gradient(
+        96.74% 2500% at 3.59% 5.28%,
+        #f0f4ff 0%,
+        #a5b6ee 100%
+    );
+}
+
+.cont-logo {
+    display: flex;
+    justify-content: center;
+    width: 244px;
+    margin: 72px auto 62px auto;
+    height: 48px;
+}
+
+.cont {
+    background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    border-radius: 16px;
+    width: 400px;
+    height: 360px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cont-main {
+    text-align: center;
+    padding-top: 48px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 23px;
+}
+
+.cont-main::before {
+    content: '';
+    border-bottom: 1px solid #3d538a;
+    position: absolute;
+    width: 312px;
+    left: 50%;
+    top: 101px;
+    height: 1px;
+    transform: translate(-50%);
+}
+
+.test {
+    margin: 33px auto;
+}
+
+.cont-clock-text,
+.cont-clock-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-clock-text {
+    gap: 79px;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.cont-clock-number {
+    gap: 8px;
+}
+
+.hrs,
+.min,
+.sec {
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #a5b6ee;
+}
+
+.hours,
+.minutes,
+.seconds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+    border: 1px solid #354971;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.cont-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-start,
+.btn-reset {
+    width: 112px;
+    border-radius: 50px;
+    border: none;
+    background-color: #5180ff;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background: #fb7099;
+}
+
+.img-play,
+.img-reset {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+.copy {
+    margin-top: 60px;
+    font-size: 14px;
+    color: #8596bf;
+    display: flex;
+    justify-content: center;
+}
